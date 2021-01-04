@@ -1,7 +1,7 @@
 {
   "name": "xinux",
   "version": "0.0.1",
-  "description": "O&#39;zbekistondagi yagon Linux haqidagi wiki vebsayt",
+  "description": "O'zbekistondagi yagon Linux haqidagi wiki vebsayt",
   "main": "index.js",
   "authors": {
     "name": "Genemator",

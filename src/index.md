@@ -1,7 +1,7 @@
 ---
 home: true
 heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: O&#39;zbekistondagi yagon Linux haqidagi wiki vebsayt
+tagline: O'zbekistondagi yagon Linux haqidagi wiki vebsayt
 actionText: Quick Start →
 actionLink: /guide/
 features:
