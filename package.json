@@ -1,0 +1,19 @@
+{
+  "name": "xinux",
+  "version": "0.0.1",
+  "description": "O&#39;zbekistondagi yagon Linux haqidagi wiki vebsayt",
+  "main": "index.js",
+  "authors": {
+    "name": "Genemator",
+    "email": "genemators@gmail.com"
+  },
+  "repository": "https://github.com/xinuxuz/docs/xinux",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
