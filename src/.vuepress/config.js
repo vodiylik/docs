@@ -51,10 +51,6 @@ module.exports = {
         link: '/'
       },
       {
-        text: 'Yordamchi',
-        link: 'https://t.me/genemator_bot'
-      },
-      {
         text: "Qo'llanma",
         link: '/guide/',
       },
