@@ -7522,10 +7522,10 @@ vuepress-plugin-smooth-scroll@^0.0.3:
   dependencies:
     smoothscroll-polyfill "^0.4.3"
 
-vuepress-theme-xenon@^2.3.2:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/vuepress-theme-xenon/-/vuepress-theme-xenon-2.3.2.tgz#e24e9600b7d835cae8036d4478e7ef3915bc0771"
-  integrity sha512-s22erbzjEHeNUkNqhSfRGA5nG59Jm2ehMEQGXNx6HOBV4AXuq8l0IMrUPU/Zyj9c9q0nLoY146rHNoNG1MgZCw==
+vuepress-theme-xenon@^2.3.3:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/vuepress-theme-xenon/-/vuepress-theme-xenon-2.3.3.tgz#e16726af6d222a4d3cae506cfd94560a1545debb"
+  integrity sha512-sTT+PKddKsMLE2F+asSRfm6SsCkT0E+rXFvqwe4+hylh5TVYABgP1jcufxb46SDU9YkdgKNPklCJOmVuNCFU9Q==
   dependencies:
     vue-click-outside "^1.0.7"
 
