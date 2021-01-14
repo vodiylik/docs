@@ -36,11 +36,11 @@ module.exports = {
     searchPlaceholder: 'Izlash...',
     smoothScroll: true,
     repo: repository,
-    repoLabel: 'Contribute!',
+    repoLabel: "Qo'llab quvvatlash!",
     editLinks: true,
     docsDir: 'src',
     docsRepo: 'xinuxuz/docs',
-    editLinkText: 'O\'zgartirish kiriting!',
+    editLinkText: "O'zgartirish kiriting!",
     lastUpdated: true,
     nav: [
       {
@@ -52,7 +52,7 @@ module.exports = {
         link: 'https://t.me/genemator_bot'
       },
       {
-        text: 'Qo\'llanma',
+        text: "Qo'llanma",
         link: '/guide/',
       },
       {
