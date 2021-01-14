@@ -5,7 +5,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Xinux To\'plami',
+  title: "Xinux To'plami",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -28,7 +28,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    yuu: {
+    xenon: {
       defaultDarkTheme: true,
       disableThemeIgnore: true
     },
