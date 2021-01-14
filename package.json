@@ -11,7 +11,7 @@
   "author": "Sokhibjon Orzikulov <genemators@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/genestatic/genedocs.git"
+    "url": "git+https://github.com/xinuxuz/docs.git"
   },
   "scripts": {
     "dev": "vuepress dev src",
@@ -22,19 +22,18 @@
   "devDependencies": {
     "vuepress": "^1.5.3"
   },
-  "dependencies": {
-    "vuepress-theme-yuu": "^2.3.0"
-  },
   "bugs": {
-    "url": "https://github.com/genestatic/genedocs/issues"
+    "url": "https://github.com/xinuxuz/docs/issues"
   },
-  "homepage": "https://github.com/genestatic/genedocs#readme",
+  "homepage": "https://github.com/xinuxuz/docs#readme",
   "keywords": [
     "Genemator",
-    "GeneDoc",
     "Docs",
     "Docster",
     "Vue",
     "Vuepress"
-  ]
+  ],
+  "dependencies": {
+    "xenon-vuepress": "^1.0.0"
+  }
 }
