@@ -28,9 +28,12 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    yuu: {
+    xenon: {
       defaultDarkTheme: true,
-      disableThemeIgnore: false
+      disableThemeIgnore: false,
+      extraOptions: {
+        below: 'XenonMenu'
+      }
     },
     logo: 'https://sauce.genemator.me/xinux/xinux.svg',
     searchPlaceholder: 'Izlash...',
