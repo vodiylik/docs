@@ -30,7 +30,7 @@ module.exports = {
   themeConfig: {
     yuu: {
       defaultDarkTheme: true,
-      disableThemeIgnore: true
+      disableThemeIgnore: false
     },
     logo: 'https://sauce.genemator.me/xinux/xinux.svg',
     searchPlaceholder: 'Izlash...',
