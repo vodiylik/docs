@@ -28,7 +28,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    xenon: {
+    yuu: {
       defaultDarkTheme: true,
       disableThemeIgnore: true
     },
@@ -41,7 +41,7 @@ module.exports = {
     docsDir: 'src',
     docsRepo: 'xinuxuz/docs',
     editLinkText: "O'zgartirish kiriting!",
-    lastUpdated: true,
+    lastUpdated: false,
     nav: [
       {
         text: 'Asosiy',
