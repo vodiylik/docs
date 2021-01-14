@@ -1,10 +1,11 @@
-const { description } = require('../../package')
+const { title, description, repository } = require('../../package')
 
 module.exports = {
+  theme: 'yuu',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'Xinux To\'plami',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -16,7 +17,7 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/config/#head
    */
   head: [
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', { name: 'theme-color', content: '#000000' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
   ],
@@ -27,23 +28,36 @@ module.exports = {
    * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
    */
   themeConfig: {
-    repo: '',
-    editLinks: false,
-    docsDir: '',
-    editLinkText: '',
-    lastUpdated: false,
+    yuu: {
+      defaultDarkTheme: true,
+      disableThemeIgnore: true
+    },
+    logo: 'https://sauce.genemator.me/xinux/xinux.svg',
+    searchPlaceholder: 'Izlash...',
+    smoothScroll: true,
+    repo: repository,
+    repoLabel: 'Contribute!',
+    editLinks: true,
+    docsDir: 'src',
+    docsRepo: 'xinuxuz/docs',
+    editLinkText: 'O\'zgartirish kiriting!',
+    lastUpdated: true,
     nav: [
       {
-        text: 'Guide',
+        text: 'Asosiy',
+        link: '/'
+      },
+      {
+        text: 'Yordamchi',
+        link: 'https://t.me/genemator_bot'
+      },
+      {
+        text: 'Qo\'llanma',
         link: '/guide/',
       },
       {
         text: 'Config',
         link: '/config/'
-      },
-      {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
       }
     ],
     sidebar: {

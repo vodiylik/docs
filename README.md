@@ -1,2 +1,2 @@
-# docs
-Linux haqidagi o'zbek tilida yozilgan wiki vebsayt
+# genedocs
+The documentation website of Genemator's API

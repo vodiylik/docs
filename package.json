@@ -1,19 +1,40 @@
 {
   "name": "xinux",
-  "version": "0.0.1",
-  "description": "O'zbekistondagi yagon Linux haqidagi wiki vebsayt",
-  "main": "index.js",
+  "title": "Xinux's Docs",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Xinux O'zbekiston jamiyatiga xush kelibsiz",
   "authors": {
-    "name": "Genemator",
+    "name": "Genemator Sakhib",
     "email": "genemators@gmail.com"
   },
-  "repository": "https://github.com/xinuxuz/docs/xinux",
+  "author": "Sokhibjon Orzikulov <genemators@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genestatic/genedocs.git"
+  },
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "build": "vuepress build src",
+    "update": "yarn"
   },
-  "license": "MIT",
+  "license": "AGPL-3.0",
   "devDependencies": {
     "vuepress": "^1.5.3"
-  }
+  },
+  "dependencies": {
+    "vuepress-theme-yuu": "^2.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/genestatic/genedocs/issues"
+  },
+  "homepage": "https://github.com/genestatic/genedocs#readme",
+  "keywords": [
+    "Genemator",
+    "GeneDoc",
+    "Docs",
+    "Docster",
+    "Vue",
+    "Vuepress"
+  ]
 }

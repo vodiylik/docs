@@ -4,6 +4,8 @@ sidebar: auto
 
 # Config
 
+### Badge <Badge text="beta" type="warning"/> <Badge text="default theme"/>
+
 ## foo
 
 - Type: `string`
@@ -13,3 +15,6 @@ sidebar: auto
 
 - Type: `string`
 - Default: `/`
+
+<demo-component></demo-component>
+

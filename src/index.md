@@ -1,15 +1,20 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
-tagline: O'zbekistondagi yagon Linux haqidagi wiki vebsayt
-actionText: Quick Start →
+heroImage: https://sauce.genemator.me/xinux/xinux.svg
+tagline: Xinux O'zbekiston jamiyatiga xush kelibsiz!
+actionText: Yuklash →
 actionLink: /guide/
 features:
-- title: Feature 1 Title
+- title: Fast
   details: Feature 1 Description
-- title: Feature 2 Title
+- title: Convenient
   details: Feature 2 Description
-- title: Feature 3 Title
+- title: Moduled
   details: Feature 3 Description
-footer: Made by Genemator with ❤️
+- title: Type Hinted
+- title: Boosted
+- title: Interlooped
+footer: V0 | AGPL-3.0 Licensed | Copyright © 2017-2020 Genemator Sakhib | ❤ bilan dasturlangan!️
 ---
+
+<h1 align="center">Hello World</h1>
