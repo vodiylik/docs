@@ -1,6 +1,6 @@
 <template>
   <div class="xenon-option">
-    <label>Xenon V2.3.7</label>
+    <label>Xenon V2.3.8</label>
   </div>
 </template>
 
