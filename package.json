@@ -11,7 +11,8 @@
   "author": "Sokhibjon Orzikulov <genemators@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xinuxuz/docs.git"
+    "url": "git+https://github.com/xinuxuz/docs.git",
+    "link": "https://github.com/xinuxuz/docs"
   },
   "scripts": {
     "dev": "vuepress dev src",

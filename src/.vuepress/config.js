@@ -38,7 +38,7 @@ module.exports = {
     logo: 'https://sauce.genemator.me/xinux/xinux.svg',
     searchPlaceholder: 'Izlash...',
     smoothScroll: true,
-    repo: repository,
+    repo: repository["link"],
     repoLabel: "Qo'llab quvvatlash!",
     editLinks: true,
     docsDir: 'src',
