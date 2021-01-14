@@ -1,7 +1,7 @@
 const { title, description, repository } = require('../../package')
 
 module.exports = {
-  theme: 'yuu',
+  theme: 'xenon',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */

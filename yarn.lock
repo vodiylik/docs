@@ -7636,6 +7636,13 @@
   dependencies:
     "smoothscroll-polyfill" "^0.4.3"
 
+"vuepress-theme-xenon@^1.0.0":
+  "integrity" "sha512-xKXVq22Li8XR4iULnylUhnb32GScdEIbZnSF2ctexfgyXVLjjXN1XtlN4jVI0x0JH3LBIAiZNstsEPheKc8Sfw=="
+  "resolved" "https://registry.npmjs.org/vuepress-theme-xenon/-/vuepress-theme-xenon-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "vue-click-outside" "^1.0.7"
+
 "vuepress@^1.5.3":
   "integrity" "sha512-F25r65BzxDFAJmWIN9s9sQSndLIf1ldAKEwkeXCqE4p2lsx/eVvQJL3DzOeeR2WgCFOkhFMKWIV+CthTGdNTZg=="
   "resolved" "https://registry.yarnpkg.com/vuepress/-/vuepress-1.5.4.tgz"
@@ -7894,13 +7901,6 @@
   "integrity" "sha512-PSNhEJDejZYV7h50BohL09Er9VaIefr2LMAf3OEmpCkjOi34eYyQYAXUTjEQtZJTKcF0E2UKTh+osDLsgNim9Q=="
   "resolved" "https://registry.yarnpkg.com/xdg-basedir/-/xdg-basedir-4.0.0.tgz"
   "version" "4.0.0"
-
-"xenon-vuepress@^1.0.0":
-  "integrity" "sha512-ONNTjsftWGT24zy8AFB0klF2rLizE+RBlEb3fGh4U/QhLVzddXnsJIKYj5uqs1pdOvXvceueXavemqlZZRyj2A=="
-  "resolved" "https://registry.npmjs.org/xenon-vuepress/-/xenon-vuepress-1.0.0.tgz"
-  "version" "1.0.0"
-  dependencies:
-    "vue-click-outside" "^1.0.7"
 
 "xtend@^4.0.0", "xtend@~4.0.1":
   "integrity" "sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ=="
