@@ -94,7 +94,6 @@ module.exports = {
 		[
 			"vuepress-plugin-code-copy",
 			{
-				// selector: "",
 				align: "bottom",
 				color: "#27b1ff",
 				backgroundTransition: true,
@@ -108,7 +107,7 @@ module.exports = {
 				gitalkConfig: {
 					clientID: "Iv1.5526fdd8bb49fcc8", // 96533
 					clientSecret: "35cf547f52e72c6f6f8f9696de254f34cba233f6",
-					repo: "docs",
+					repo: "comments",
 					owner: "xinuxuz",
 					admin: ["xinuxuz", "genemators"],
 					distractionFreeMode: false,
