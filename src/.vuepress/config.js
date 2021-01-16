@@ -95,9 +95,9 @@ module.exports = {
 			"vuepress-plugin-code-copy",
 			{
 				align: "bottom",
-				color: "#27b1ff",
+				color: "#646464",
 				backgroundTransition: true,
-				backgroundColor: "#0075b8",
+				backgroundColor: "#262626",
 				successText: "Ko'chirib olindi!",
 			},
 		],
