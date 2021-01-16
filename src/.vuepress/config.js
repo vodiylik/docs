@@ -57,6 +57,7 @@ module.exports = {
 		repoLabel: "Qo'llab quvvatlash!",
 		editLinks: true,
 		docsDir: "src",
+		docsBranch: "main",
 		docsRepo: "xinuxuz/docs",
 		editLinkText: "O'zgartirish kiriting!",
 		lastUpdated: false,
@@ -90,9 +91,10 @@ module.exports = {
 	 */
 	plugins: [
 		[
-			"@vuepress/pwa",
+			"@vuepress/plugin-pwa",
 			{
 				serviceWorker: true,
+				popupComponent: "MySWUpdatePopup",
 				updatePopup: {
 					message: "Yangi ma'lumot mavjud!",
 					buttonText: "Yangilash",
@@ -101,5 +103,6 @@ module.exports = {
 		],
 		"@vuepress/plugin-back-to-top",
 		"@vuepress/plugin-medium-zoom",
+		"@vuepress/plugin-nprogress",
 	],
 };
