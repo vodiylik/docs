@@ -1,8 +1,19 @@
 <template>
   <div class="xenon-option">
-    <label>Xenon V2.3.8</label>
+    <label>Xenon {{ xenon }}</label>
   </div>
 </template>
+
+<script>
+import { dependencies } from "../../../package.json"
+export default {
+  data() {
+    return {
+      xenon: dependencies["vuepress-theme-xenon"].replace("^", "")
+    }
+  }
+}
+</script>
 
 <style>
  .xenon-option {

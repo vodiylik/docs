@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://sauce.genemator.me/xinux/xinux.svg
+heroImage: /xinux.svg
 tagline: Xinux O'zbekiston jamiyatiga xush kelibsiz!
 actionText: Yuklash →
 actionLink: /guide/

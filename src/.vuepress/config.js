@@ -35,7 +35,16 @@ module.exports = {
         below: 'XenonMenu'
       }
     },
-    logo: 'https://sauce.genemator.me/xinux/xinux.svg',
+    plugins: {
+      '@vuepress/pwa': {
+      serviceWorker: true,
+          updatePopup: {
+          message: "Yangi ma'lumot mavjud!",
+              buttonText: "Yangilash"
+         }
+      }
+    },
+    logo: '/xinux.svg',
     searchPlaceholder: 'Izlash...',
     smoothScroll: true,
     repo: repository["link"],
@@ -77,6 +86,7 @@ module.exports = {
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
   plugins: [
+    '@vuepress/pwa',
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
   ]
