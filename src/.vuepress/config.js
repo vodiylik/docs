@@ -105,8 +105,8 @@ module.exports = {
 			"gitalk-maker",
 			{
 				gitalkConfig: {
-					clientID: "51a385ceffbd487e6610", // 96533
-					clientSecret: "8a770ef46d118d526b4755d212edc8a10b9be6c9", //35cf547f52e72c6f6f8f9696de254f34cba233f6
+					clientID: "51a385ceffbd487e6610",
+					clientSecret: "8a770ef46d118d526b4755d212edc8a10b9be6c9",
 					repo: "comments",
 					owner: "xinuxuz",
 					admin: ["xinuxuz", "genemators"],
