@@ -8,13 +8,17 @@ sidebar: auto
 
 ## foo
 
-- Type: `string`
-- Default: `/`
+-   Type: `string`
+-   Default: `/`
 
 ## bar
 
-- Type: `string`
-- Default: `/`
+-   Type: `string`
+
+```javascript
+console.log("Javascript");
+```
+
+-   Default: `/`
 
 <demo-component></demo-component>
-

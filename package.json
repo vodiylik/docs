@@ -1,41 +1,52 @@
 {
-  "name": "xinux",
-  "title": "Xinux's Docs",
-  "version": "0.1.0",
-  "private": true,
-  "description": "Xinux O'zbekiston jamiyatiga xush kelibsiz",
-  "authors": {
-    "name": "Genemator Sakhib",
-    "email": "genemators@gmail.com"
-  },
-  "author": "Sokhibjon Orzikulov <genemators@gmail.com>",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xinuxuz/docs.git",
-    "link": "https://github.com/xinuxuz/docs"
-  },
-  "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src",
-    "update": "yarn"
-  },
-  "license": "AGPL-3.0",
-  "devDependencies": {
-    "@vuepress/plugin-pwa": "^1.8.0",
-    "vuepress": "^1.5.3"
-  },
-  "bugs": {
-    "url": "https://github.com/xinuxuz/docs/issues"
-  },
-  "homepage": "https://github.com/xinuxuz/docs#readme",
-  "keywords": [
-    "Genemator",
-    "Docs",
-    "Docster",
-    "Vue",
-    "Vuepress"
-  ],
-  "dependencies": {
-    "vuepress-theme-xenon": "^2.3.8"
-  }
+	"name": "xinux",
+	"title": "Xinux",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Xinux O'zbekiston jamiyatiga xush kelibsiz",
+	"authors": {
+		"name": "Geno Ferollo",
+		"email": "genemators@gmail.com"
+	},
+	"author": "Geno Ferollo <genemators@gmail.com>",
+	"contributors": [
+		"Muhammadyusuf Abdurakhimov"
+	],
+	"engines": {
+		"node": ">=14.0.0",
+		"npm": ">=6.14.5",
+		"yarn": ">=1.22.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/xinuxuz/docs.git",
+		"link": "https://github.com/xinuxuz/docs"
+	},
+	"scripts": {
+		"dev": "vuepress dev src",
+		"build": "vuepress build src",
+		"format": "prettier --write --check \"**/*.{js,json,md}\"\n",
+		"format:check": "prettier --check \"**/*.{js,json,md}\"\n",
+		"update": "yarn update"
+	},
+	"license": "GPL-3.0",
+	"devDependencies": {
+		"@vuepress/plugin-pwa": "^1.8.0",
+		"prettier": "^2.2.1",
+		"vuepress": "^1.5.3"
+	},
+	"bugs": {
+		"url": "https://github.com/xinuxuz/docs/issues"
+	},
+	"homepage": "https://github.com/xinuxuz/docs#readme",
+	"keywords": [
+		"Genemator",
+		"Docs",
+		"Docster",
+		"Vue",
+		"Vuepress"
+	],
+	"dependencies": {
+		"vuepress-theme-xenon": "^2.3.8"
+	}
 }
