@@ -47,6 +47,6 @@
 		"Vuepress"
 	],
 	"dependencies": {
-		"vuepress-theme-xenon": "^2.3.9"
+		"vuepress-theme-xenon": "^2.4.0"
 	}
 }
