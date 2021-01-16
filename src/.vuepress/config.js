@@ -90,6 +90,18 @@ module.exports = {
 	 * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
 	 */
 	plugins: [
+		"reading-progress",
+		[
+			"vuepress-plugin-code-copy",
+			{
+				// selector: "",
+				align: "bottom",
+				color: "#27b1ff",
+				backgroundTransition: true,
+				backgroundColor: "#0075b8",
+				successText: "Ko'chirib olindi!",
+			},
+		],
 		[
 			"gitalk-maker",
 			{
