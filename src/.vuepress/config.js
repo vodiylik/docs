@@ -101,19 +101,19 @@ module.exports = {
 				successText: "Ko'chirib olindi!",
 			},
 		],
-		[
-			"gitalk-maker",
-			{
-				gitalkConfig: {
-					clientID: "51a385ceffbd487e6610",
-					clientSecret: "8a770ef46d118d526b4755d212edc8a10b9be6c9",
-					repo: "comments",
-					owner: "xinuxuz",
-					admin: ["xinuxuz", "genemators"],
-					distractionFreeMode: false,
-				},
-			},
-		],
+		// [
+		// 	"gitalk-maker",
+		// 	{
+		// 		gitalkConfig: {
+		// 			clientID: "51a385ceffbd487e6610",
+		// 			clientSecret: "8a770ef46d118d526b4755d212edc8a10b9be6c9",
+		// 			repo: "comments",
+		// 			owner: "xinuxuz",
+		// 			admin: ["xinuxuz", "genemators"],
+		// 			distractionFreeMode: false,
+		// 		},
+		// 	},
+		// ],
 		[
 			"@vuepress/plugin-pwa",
 			{
