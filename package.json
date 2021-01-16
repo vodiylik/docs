@@ -47,6 +47,7 @@
 		"Vuepress"
 	],
 	"dependencies": {
+		"vuepress-plugin-gitalk-maker": "^0.1.0",
 		"vuepress-theme-xenon": "^2.4.0"
 	}
 }

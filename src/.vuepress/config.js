@@ -91,6 +91,19 @@ module.exports = {
 	 */
 	plugins: [
 		[
+			"gitalk-maker",
+			{
+				gitalkConfig: {
+					clientID: "96533",
+					clientSecret: "35cf547f52e72c6f6f8f9696de254f34cba233f6",
+					repo: "comments",
+					owner: "xinuxuz",
+					admin: ["xinuxuz", "genemators"],
+					distractionFreeMode: false,
+				},
+			},
+		],
+		[
 			"@vuepress/plugin-pwa",
 			{
 				serviceWorker: true,
