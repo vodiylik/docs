@@ -54,7 +54,7 @@ module.exports = {
 		searchPlaceholder: "Izlash...",
 		smoothScroll: true,
 		repo: repository["link"],
-		repoLabel: "Qo'llab quvvatlash!",
+		repoLabel: "Ishtirok eting!",
 		editLinks: true,
 		docsDir: "src",
 		docsBranch: "main",
@@ -67,20 +67,27 @@ module.exports = {
 				link: "/",
 			},
 			{
-				text: "Qo'llanma",
-				link: "/guide/",
+				text: "Ma'lumot",
+				link: "/malumot/",
 			},
 			{
-				text: "Config",
-				link: "/config/",
+				text: "Jamoa",
+				link: "/jamoa/",
 			},
 		],
 		sidebar: {
-			"/guide/": [
+			"/malumot/": [
 				{
-					title: "Guide",
+					title: "Ma'lumotlar",
 					collapsable: false,
-					children: ["", "using-vue"],
+					children: [""],
+				},
+			],
+			"/jamoa/": [
+				{
+					title: "Jamoamiz",
+					collapsable: false,
+					children: [""],
 				},
 			],
 		},

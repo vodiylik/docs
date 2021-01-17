@@ -1,22 +1,17 @@
 ---
 home: true
 heroImage: /xinux.svg
-tagline: Xinux O'zbekiston jamiyatiga xush kelibsiz!
+tagline: Xinux - O'zbekistondagi Linux jamiyatiga xush kelibsiz!
 actionText: Yuklash →
-actionLink: /guide/
+actionLink: /malumot/
 features:
-    - title: Fast
-      details: Feature 1 Description
-    - title: Convenient
-      details: Feature 2 Description
-    - title: Moduled
-      details: Feature 3 Description
-    - title: Type Hinted
-    - title: Boosted
-    - title: Interlooped
+    - title: Chuqur
+      details: Bizning saytda hamma mavzular chuqur yoritilgan!
+    - title: Qulay
+      details: Bizning sayt eng so'nggi JavaScript freymvorklari yordamida qurilgan.
+    - title: O'zbekcha
+      details: Hech qanday qisqartma va ko'chma tillarsiz, sof o'zbek tilida!
 footer:
     GPL-3.0 | Barcha Huquqlar Himoyalangan © 2020 Xinux | 🖤 ila ⌨️ yordamida
     siz uchun!️
 ---
-
-<h1 align="center">Hello World</h1>
