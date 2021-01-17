@@ -1,6 +1,6 @@
 <template>
   <div class="xenon-option">
-    <label>Xenon {{ xenon }}</label>
+    <label><a href="https://github.com/xinuxuz/xenon">Xenon {{ xenon }}</a></label>
   </div>
 </template>
 

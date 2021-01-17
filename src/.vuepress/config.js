@@ -74,6 +74,58 @@ module.exports = {
 				text: "Jamoa",
 				link: "/jamoa/",
 			},
+			{
+				text: "Distribut",
+				ariaLabel: "Distributlar",
+				items: [
+					{
+						text: "Debian",
+						items: [
+							{
+								text: "Ubuntu",
+								link: "https://ubuntu.xinux.uz",
+								target: "_blank",
+							},
+						],
+					},
+				],
+			},
+			{
+				text: "Tarmoq",
+				ariaLabel: "Tarmoqlarimiz",
+				items: [
+					{
+						text: "Telegram",
+						items: [
+							{
+								text: "Guruh",
+								link: "tg://resolve?domain=xinuxuz",
+								target: "_blank",
+							},
+							{
+								text: "Kanal",
+								link: "tg://resolve?xinuxuz_news",
+								target: "_blank",
+							},
+						],
+					},
+					{
+						text: "Adminlar",
+						items: [
+							{
+								text: "Genemator",
+								link: "tg://resolve?domain=genemator",
+								target: "_blank",
+							},
+							{
+								text: "iBlogs",
+								link: "tg://resolve?iBlogs_uz",
+								target: "_blank",
+							},
+						],
+					},
+				],
+			},
 		],
 		sidebar: {
 			"/malumot/": [

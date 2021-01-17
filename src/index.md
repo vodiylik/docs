@@ -8,7 +8,8 @@ features:
     - title: Chuqur
       details: Bizning saytda hamma mavzular chuqur yoritilgan!
     - title: Qulay
-      details: Bizning sayt eng so'nggi JavaScript freymvorklari yordamida qurilgan.
+      details:
+          Bizning sayt eng so'nggi JavaScript freymvorklari yordamida qurilgan.
     - title: O'zbekcha
       details: Hech qanday qisqartma va ko'chma tillarsiz, sof o'zbek tilida!
 footer:
