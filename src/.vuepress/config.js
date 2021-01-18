@@ -195,6 +195,7 @@ module.exports = {
 					{
 						text: "Debian",
 						link: "https://debian.xinux.uz",
+						target: "_self"
 					},
 				],
 			},
