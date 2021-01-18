@@ -1,29 +1,28 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: Xatoliklar haqida habar berish
+about: Kelib chiqgan xatoliklar haqida habar berish
 title: ""
 labels: ""
 assignees: ""
 ---
 
-**Describe the bug** A clear and concise description of what the bug is.
+**Xatolikni tushuntiring** Xatolikni ko'rsatuvchi anniq tavsilot.
 
-**To Reproduce** Steps to reproduce the behavior:
+**Erishish yo'llari** Qadam-ma qadam bunga erishish yo'llari:
 
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+1. Borilsin '...'
+2. Ochilsin '....'
+3. Tushirilsin shungacha '....'
+4. Xatolik ko'zdan kechirilsin
 
-**Expected behavior** A clear and concise description of what you expected to
-happen.
+**Kutilgan holat** Kutilayotgan holat yoki tabiyat haqida to'liq ma'lumot.
 
-**Screenshots** If applicable, add screenshots to help explain your problem.
+**Sur'atlar** Malol kelmasa, xatolikni ko'zdan kechirish uchun sur'atlar taqdim eting.
 
-**Desktop (please complete the following information):**
+**Kompyuter (iltimos, quyidagi so'rovnomani to'ldiring):**
 
--   OS: [e.g. Windows, Linux]
--   Package Manager [e.g. npm, yarn]
--   Node Version [e.g. 14]
+-   Operatsion tizim: [e.g. Windows, Linux]
+-   Dasturlar o'rnatish tizimi: [e.g. npm, yarn]
+-   Node versiyasi: [e.g. 14]
 
-**Additional context** Add any other context about the problem here.
+**Qo'shimcha ma'lumotlar** Keltirib o'tilgan muammo haqida yana qo'shimcha ma'lumotlar.
