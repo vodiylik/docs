@@ -189,18 +189,12 @@ module.exports = {
 				link: "/jamoa/",
 			},
 			{
-				text: "Distribut",
-				ariaLabel: "Distributlar",
+				text: "Turkum",
+				ariaLabel: "Turkumlar",
 				items: [
 					{
 						text: "Debian",
-						items: [
-							{
-								text: "Ubuntu",
-								link: "https://ubuntu.xinux.uz",
-								target: "_blank",
-							},
-						],
+						link: "https://debian.xinux.uz",
 					},
 				],
 			},
