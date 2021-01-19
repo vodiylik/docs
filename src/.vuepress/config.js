@@ -1,15 +1,15 @@
-const tree = require("./tree")
-const heads = require("./head")
-const head  = require("./meta")
-const theme = require("./theme")
-const plugins = require("./plugins")
+const tree = require("./tree");
+const heads = require("./head");
+const head = require("./meta");
+const theme = require("./theme");
+const plugins = require("./plugins");
 const { repository } = require("../../package");
 
 module.exports = {
 	theme: "xenon",
 	locales: {
-		'/': heads.main.head,
-		'/debian/': heads.debian.head
+		"/": heads.main.head,
+		"/debian/": heads.debian.head,
 	},
 	head: head,
 	themeConfig: {
@@ -26,9 +26,9 @@ module.exports = {
 		editLinkText: "O'zgartirish kiriting!",
 		lastUpdated: false,
 		locales: {
-			'/': tree.main,
-			'/debian/': tree.debian
+			"/": tree.main,
+			"/debian/": tree.debian,
 		},
 	},
-	plugins: plugins
+	plugins: plugins,
 };
