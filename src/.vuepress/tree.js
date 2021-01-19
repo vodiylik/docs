@@ -1,3 +1,5 @@
+const socials = require("./social")
+
 module.exports = {
 	main: {
 		selectText: "Turkum",
@@ -19,23 +21,7 @@ module.exports = {
 			{
 				text: "Tarmoq",
 				ariaLabel: "Tarmoqlarimiz",
-				items: [
-					{
-						text: "Telegram",
-						items: [
-							{
-								text: "Guruh",
-								link: "tg://resolve?domain=xinuxuz",
-								target: "_blank",
-							},
-							{
-								text: "Kanal",
-								link: "tg://resolve?xinuxuz_news",
-								target: "_blank",
-							},
-						],
-					},
-				],
+				items: socials,
 			},
 		],
 		sidebar: {
@@ -97,23 +83,7 @@ module.exports = {
 			{
 				text: "Tarmoq",
 				ariaLabel: "Tarmoqlarimiz",
-				items: [
-					{
-						text: "Telegram",
-						items: [
-							{
-								text: "Guruh",
-								link: "tg://resolve?domain=xinuxuz",
-								target: "_self",
-							},
-							{
-								text: "Kanal",
-								link: "tg://resolve?xinuxuz_news",
-								target: "_self",
-							},
-						],
-					},
-				],
+				items: socials,
 			},
 		],
 		sidebar: {
