@@ -49,6 +49,6 @@
 		"vuepress-plugin-code-copy": "^1.0.6",
 		"vuepress-plugin-gitalk-maker": "^0.1.0",
 		"vuepress-plugin-reading-progress": "^1.0.10",
-		"vuepress-theme-xenon": "^2.4.2"
+		"vuepress-theme-xenon": "^2.4.5"
 	}
 }
