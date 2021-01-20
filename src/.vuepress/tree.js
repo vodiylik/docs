@@ -1,4 +1,4 @@
-const socials = require("./social")
+const socials = require("./social");
 
 module.exports = {
 	main: {
