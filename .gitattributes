@@ -1,11 +1,12 @@
 # Source files
 # ============
 
-*.md            linguist-language=javascript
-*.js            linguist-language=javascript
-*.json          linguist-language=javascript
-*.jsp           linguist-language=javascript
-*.jsx           linguist-language=javascript
-*.tld           linguist-language=javascript
-*.ts            linguist-language=javascript
-*.vue           linguist-language=javascript
+*.md            linguist-language=Vue
+*.js            linguist-language=Vue
+*.json          linguist-language=Vue
+*.jsp           linguist-language=Vue
+*.jsx           linguist-language=Vue
+*.tld           linguist-language=Vue
+*.ts            linguist-language=Vue
+*.vue           linguist-language=Vue
+*.styl          linguist-language=Vue
